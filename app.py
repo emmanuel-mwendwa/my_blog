@@ -5,6 +5,12 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
+    """Root endpoint of the application."""
+    name = "Emmanuel"
+
+    if name:
+        return {"message": f"Hello {name}"}
+
     return {"message": "Hello World"}
 
 
