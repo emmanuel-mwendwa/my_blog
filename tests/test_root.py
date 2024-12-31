@@ -1,5 +1,6 @@
 from . import BaseTest
 
+
 class TestRootEndpoint(BaseTest):
     def test_root_endpoint(self):
         """Test the root endpoint of the application."""
