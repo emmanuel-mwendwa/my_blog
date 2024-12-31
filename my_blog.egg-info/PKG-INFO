@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: my_blog
+Version: 1.0.0
+Summary: A simple blog website built with FastAPI and Uvicorn to learn DevOps, Docker, Testing and CI/CD.
+Author-email: Emmanuel Mwendwa <mwendwae054@gmail.com>
+Maintainer-email: Emmanuel Mwendwa <mwendwae054@gmail.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: httpx
+Requires-Dist: flake8

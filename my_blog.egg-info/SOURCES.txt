@@ -1,0 +1,9 @@
+README.md
+app.py
+pyproject.toml
+my_blog.egg-info/PKG-INFO
+my_blog.egg-info/SOURCES.txt
+my_blog.egg-info/dependency_links.txt
+my_blog.egg-info/requires.txt
+my_blog.egg-info/top_level.txt
+tests/test_root.py

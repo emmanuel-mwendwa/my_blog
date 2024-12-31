@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my_blog"
+version = "1.0.0"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "httpx",
+    "flake8",
+]
+
+authors = [
+    { name = "Emmanuel Mwendwa", email = "mwendwae054@gmail.com"},
+]
+maintainers = [
+    { name = "Emmanuel Mwendwa", email = "mwendwae054@gmail.com"},
+]
+description = "A simple blog website built with FastAPI and Uvicorn to learn DevOps, Docker, Testing and CI/CD."
+readme = "README.md"
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
